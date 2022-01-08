@@ -1,0 +1,27 @@
+//Mutations
+mutation {
+  createUser(
+    name: "Stev",
+    username: "StevUserName",
+    password: "Pasword123"
+  ){
+    id
+    name
+  }
+}
+
+//Querys
+
+{
+  getAllUsers{
+    id
+    name
+  }
+}
+
+{
+  getUser(id:1){
+    name
+    password
+  }
+}

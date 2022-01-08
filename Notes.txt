@@ -1,0 +1,21 @@
+//https://www.youtube.com/watch?v=8_DuZHJBB-k
+
+npm i express express-graphql graphql mysql typeorm cors bcryptjs dotenv
+npm i -D typescript ts-node-dev @types/bcryptjs @types/cors @types/express @types/node
+npx tsc --init 
+git init
+
+//despues de en tsconfig.json
+// descomentar las siguientes lines 28 y 50 y cambiarlas por
+//  "rootDir": "./src",
+//  "outDir": "./dist",
+
+// en digyramso en nodemon de ts agrgando los siguientes codigos al package.json en el area de los script
+//  "start": "node dist/index.js",
+//  "dev": "ts-node-dev src/index.ts",
+//  "build": "tsc -p ."
+
+// para usar Entities debemos configurar anuestro archivo tsconfig.json
+//  "experimentalDecorators": true,
+//  "emitDecoratorMetadata": true,
+//  "strictPropertyInitialization": false, 

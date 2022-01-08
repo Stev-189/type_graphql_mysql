@@ -1,0 +1,9 @@
+SHOW DATABASES;
+
+CREATE DATABASE IF NOT EXISTS `usersdb`;
+
+USE `usersdb`;
+
+DESCRIBE `users`;
+
+SELECT * FROM `users`;
